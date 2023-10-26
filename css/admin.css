@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background: url("../images/image3.jpg");
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	
+	text-align: center;
+	padding: 5px;
+}
+
+.box{
+	margin: 125px auto;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	width: 500px;
+	height: 320px;
+
+}
+
+
+.box input[type=text],.box input[type=password]{
+	display: block;
+	font-size: 15px;
+	padding: 8px 25px;
+	margin: 15px 0;
+	background-color: none;
+	border-radius: 25px;
+	border:none;
+}
+
+.box input[type=text]:focus,.box input[type=password]:focus{
+	border: 3px solid green;
+	outline: none;
+}
+
+.box input[type=submit],.box input[type=reset]
+{	
+	color: #fff;
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 5px 30px;
+	margin: 0 10px;
+	background-color: none;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0);
+}
+.box input[type=submit]{
+	border: 2px solid green;
+}
+
+.box input[type=submit]:hover{
+	background: green;
+}
+
+.box input[type=reset]{
+	border: 2px solid steelblue;
+}
+
+.box input[type=reset]:hover{
+	background: steelblue;
+}
+.box input[type=file]{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+#forgot, #register{
+	padding: 2px;
+	margin-top: 28px;
+	color: rgb(172, 171, 171);
+	text-align: left;
+	text-decoration: none;
+	outline: none;
+}
+
+#forgot:hover,
+#register:hover{
+	color: rgb(22, 219, 98);
+}

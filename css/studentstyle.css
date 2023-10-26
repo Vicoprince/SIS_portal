@@ -1,0 +1,117 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100%;
+    background-image: url("../images/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 100vh;
+    background-color:rgba(192, 19, 19, 0.3);
+    background-blend-mode: multiply;
+}
+
+.head{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    margin: 15px 0;
+}
+
+.top{
+    height: 40px;
+    background-color: rgb(180, 108, 108);
+}
+
+.top .bar{
+    float: right;
+    font-size: 600;
+    color: whitesmoke;
+    margin-right: 20px;
+    font-family: cursive;
+}
+
+a{
+    color: powderblue;
+}
+
+a:hover{
+    color: rgb(115, 115, 248);
+    transition: all 0.3s ease;
+}
+
+.box{
+	margin: 125px auto;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	width: 500px;
+	height: 320px;
+
+}
+
+.form-group form .field,
+.form-group form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.form-group form .name{
+    margin-right: 10px;
+}
+.form-group form .field input,
+select{
+    height: 100%;
+    width: 50%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.form-group form .field input:focus,
+.form-group form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+
+  .form-group form .button-area{
+    display: flex;
+}
+  .form-group form .button-area button{
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    margin-left: 25%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: black;
+    border: 2px solid rgb(54, 25, 31);
+    transition: all 0.3s ease;
+    align-content: center;
+}
+  .form-group form .button-area button:hover{
+    color: crimson;
+    background: none;
+  }
